@@ -1,0 +1,57 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  row-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.h3 {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetChildren {
+  color: var(--token-J5LhDkmcWqg4);
+}
+.bdrLight {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 1px;
+  max-width: 100%;
+  align-self: flex-start;
+  border-top-color: var(--token-J5LhDkmcWqg4);
+  border-top-style: solid;
+  flex-shrink: 0;
+  padding: 0px;
+  margin: 0px;
+  border-width: 3px;
+}
+.freeBox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetSlot {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--token-J5LhDkmcWqg4);
+  line-height: 1.6;
+}

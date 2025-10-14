@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  row-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.h3 {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBox___8ENhM {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 0px;
+}
+.blueBdr__o6A7:global(.__wab_instance) {
+  position: relative;
+  align-self: auto;
+  margin: 0;
+}
+.freeBox__zh9Y6 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
