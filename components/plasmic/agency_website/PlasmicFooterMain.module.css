@@ -8,11 +8,6 @@
   min-width: 0;
   padding: 64px;
 }
-@media (max-width: 768px) {
-  .root {
-    padding: 40px;
-  }
-}
 .freeBox {
   display: flex;
   position: relative;
@@ -54,18 +49,6 @@
 }
 .rowWrapper > :nth-child(4n + 4) {
   width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
-}
-@media (max-width: 768px) {
-  .rowWrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    --plsmc-rc-col-gap: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .rowWrapper > :nth-child(1n + 1) {
-    width: calc((100% - 0 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
-  }
 }
 .colmn1 {
   display: flex;

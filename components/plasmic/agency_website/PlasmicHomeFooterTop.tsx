@@ -130,8 +130,6 @@ function PlasmicHomeFooterTop__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = _useGlobalVariants();
-
   const styleTokensClassNames = _useStyleTokens();
 
   return (
@@ -166,9 +164,7 @@ function PlasmicHomeFooterTop__RenderFunc(props: {
                 sty.h2
               )}
             >
-              {hasVariant(globalVariants, "screen", "mobile")
-                ? "Take your business to the next level"
-                : "Work with us."}
+              {"Work with us."}
             </h2>
             <div
               className={classNames(
@@ -177,9 +173,9 @@ function PlasmicHomeFooterTop__RenderFunc(props: {
                 sty.text___8EZhg
               )}
             >
-              {hasVariant(globalVariants, "screen", "mobile")
-                ? "Rapidiously revolutionize future-proof niches, and authoritatively \nrestore user-centric e-markets."
-                : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}
+              {
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+              }
             </div>
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__f00Fr)}>

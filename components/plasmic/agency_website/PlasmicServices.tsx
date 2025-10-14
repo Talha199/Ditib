@@ -139,8 +139,6 @@ function PlasmicServices__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = _useGlobalVariants();
-
   const styleTokensClassNames = _useStyleTokens();
 
   return (
@@ -217,9 +215,9 @@ function PlasmicServices__RenderFunc(props: {
                     sty.text__lCAxU
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Lorem Ipsum is simply dummy text of the printing and typesetting indstandard dummy text ever since the 1500s."
-                    : "Lorem Ipsum is simply dummy text of the printing and typesetting indstandard dummy text ever since the 1500s."}
+                  {
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting indstandard dummy text ever since the 1500s."
+                  }
                 </div>
               </div>
             </div>
@@ -399,9 +397,7 @@ function PlasmicServices__RenderFunc(props: {
                       sty.h2__ogGz6
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
-                      ? "Service category"
-                      : "Service type"}
+                    {"Service type"}
                   </h2>
                   <div
                     className={classNames(

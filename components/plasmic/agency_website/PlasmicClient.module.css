@@ -19,11 +19,6 @@
   flex-direction: row;
   min-width: 0;
 }
-@media (max-width: 768px) {
-  .slotTargetChildren {
-    font-size: 30px;
-  }
-}
 .freeBox {
   position: relative;
   width: 100%;

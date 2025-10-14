@@ -143,8 +143,6 @@ function PlasmicAboutUs__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = _useGlobalVariants();
-
   const styleTokensClassNames = _useStyleTokens();
 
   return (
@@ -215,9 +213,7 @@ function PlasmicAboutUs__RenderFunc(props: {
                     sty.h1
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "About US"
-                    : "About Us"}
+                  {"About Us"}
                 </h1>
                 <div
                   className={classNames(
@@ -226,9 +222,9 @@ function PlasmicAboutUs__RenderFunc(props: {
                     sty.text__ls80K
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+                  {
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                  }
                 </div>
               </div>
             </div>

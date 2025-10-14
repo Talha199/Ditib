@@ -149,8 +149,6 @@ function PlasmicContactUs__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = _useGlobalVariants();
-
   const stateSpecs: Parameters<typeof useDollarState>[0] = React.useMemo(
     () => [
       {
@@ -266,9 +264,7 @@ function PlasmicContactUs__RenderFunc(props: {
                     sty.h1
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Contact us"
-                    : "Contact us"}
+                  {"Contact us"}
                 </h1>
               </div>
             </div>
@@ -288,9 +284,9 @@ function PlasmicContactUs__RenderFunc(props: {
                       sty.text___69JA
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
-                      ? "Proactively architect worldwide sources, then globally implement enabled  users, then collaboratively innovate unique expertise, then continually  strategize excellent markets."
-                      : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."}
+                    {
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+                    }
                   </div>
                 </div>
                 <div className={classNames(projectcss.all, sty.column__e9EMb)}>

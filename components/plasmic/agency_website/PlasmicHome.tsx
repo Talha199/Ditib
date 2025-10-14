@@ -134,8 +134,6 @@ function PlasmicHome__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = _useGlobalVariants();
-
   const styleTokensClassNames = _useStyleTokens();
 
   return (
@@ -187,9 +185,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.h1
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
-                      ? "We are the Business and Consulting Expert"
-                      : "Ditib Veysel Karani Cami"}
+                    {"Ditib Veysel Karani Cami"}
                   </h1>
                   <div
                     className={classNames(
@@ -208,52 +204,8 @@ function PlasmicHome__RenderFunc(props: {
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__atRi3)}>
             <div className={classNames(projectcss.all, sty.columns___1DQe7)}>
-              <div className={classNames(projectcss.all, sty.column__oe3Rv)}>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__mLSs6)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobile")
-                      ? "237px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"100%"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/agency_website/images/austinDistelWD1LRb9OeEoUnsplashJpg.jpg",
-                    fullWidth: 640,
-                    fullHeight: 480,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
-              <div className={classNames(projectcss.all, sty.column__h2ElU)}>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img___1JtLy)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobile")
-                      ? "292px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"100%"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/agency_website/images/brookeCagleUHvRvDr7PgUnsplashJpg.jpg",
-                    fullWidth: 3997,
-                    fullHeight: 2665,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
+              <div className={classNames(projectcss.all, sty.column__h2ElU)} />
+
               <div className={classNames(projectcss.all, sty.column__dI755)}>
                 <div className={classNames(projectcss.all, sty.freeBox__v830Z)}>
                   <h2
@@ -264,9 +216,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.h2__cax5L
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
-                      ? "About us"
-                      : "About us"}
+                    {"Tarihce"}
                   </h2>
                   <div
                     className={classNames(
@@ -276,7 +226,7 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+                      "Worms\u2019taki Veysel Karani Camii, 1980\u2019lerden itibaren Almanya\u2019daki T\u00fcrk ve M\u00fcsl\u00fcman toplulu\u011fun artan ibadet ihtiyac\u0131n\u0131 kar\u015f\u0131lamak i\u00e7in kurulmu\u015ftur. Ba\u015flang\u0131\u00e7ta k\u00fc\u00e7\u00fck bir dernek ve topluluk merkezi olarak faaliyete ge\u00e7en camii, zamanla D\u0130T\u0130B\u2019e ba\u011fl\u0131 modern bir ibadet ve e\u011fitim merkezi haline gelmi\u015ftir. Caminin ad\u0131, \u0130slam tarihinde tan\u0131nan Veysel Karani sahabiden gelmektedir ve camii, hem dini ibadet hem de k\u00fclt\u00fcrel etkinlikler i\u00e7in toplulu\u011fun bulu\u015fma noktas\u0131 olmu\u015ftur.\r\n"
                     }
                   </div>
                   <div
@@ -304,7 +254,7 @@ function PlasmicHome__RenderFunc(props: {
                           sty.text__jhPte
                         )}
                       >
-                        {"Read More"}
+                        {"Devamini OKu"}
                       </div>
                       {false ? (
                         <Icon29Icon

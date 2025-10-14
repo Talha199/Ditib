@@ -136,8 +136,6 @@ function PlasmicClients__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = _useGlobalVariants();
-
   const styleTokensClassNames = _useStyleTokens();
 
   return (
@@ -205,9 +203,7 @@ function PlasmicClients__RenderFunc(props: {
                     sty.h1
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Clients"
-                    : "Clients"}
+                  {"Clients"}
                 </h1>
                 <div
                   data-plasmic-name={"text"}
@@ -218,9 +214,9 @@ function PlasmicClients__RenderFunc(props: {
                     sty.text
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Lorem Ipsum is simply dummy text of the printing and typesetting "
-                    : "Lorem Ipsum is simply dummy text of the printing and typesetting "}
+                  {
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting "
+                  }
                 </div>
               </div>
             </div>
@@ -361,9 +357,7 @@ function PlasmicClients__RenderFunc(props: {
                       sty.h2__q2PpJ
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
-                      ? "More client's we've worked with"
-                      : "More client's we've worked with"}
+                    {"More client's we've worked with"}
                   </h2>
                 </div>
                 <div className={classNames(projectcss.all, sty.column__wAb5J)}>

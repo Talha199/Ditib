@@ -159,8 +159,7 @@ function PlasmicClient__RenderFunc(props: {
       >
         {renderPlasmicSlot({
           defaultContents: "Client name",
-          value: args.children,
-          className: classNames(sty.slotTargetChildren)
+          value: args.children
         })}
       </h2>
       <div
