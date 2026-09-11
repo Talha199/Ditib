@@ -1,8 +1,11 @@
 # DITIB Worms
 
-Website for DITIB Worms, built with [Next.js](https://nextjs.org/) (Pages Router) and designed in
-[Plasmic](https://www.plasmic.app/). Page and component layouts are authored visually in Plasmic
-Studio and pulled into this repository, so content and design changes do not require a code change.
+Live site: **[ditib-worms.com](https://ditib-worms.com)**
+
+Website of the DITIB mosque community Veysel Karani Camii e.V. in Worms, Germany. Built with
+[Next.js](https://nextjs.org/) (Pages Router) and designed in [Plasmic](https://www.plasmic.app/).
+Page and component layouts are authored visually in Plasmic Studio and pulled into this repository,
+so content and design changes do not require a code change.
 
 ## Tech stack
 
@@ -100,6 +103,8 @@ repository, which is the default Plasmic setup — the loader token is a read-on
 to the client. If you fork this project, replace them with your own project's values.
 
 ## Deployment
+
+The site runs at [ditib-worms.com](https://ditib-worms.com).
 
 Any host that supports Next.js works; the build is a standard `npm run build` / `npm start`. Because
 pages are statically generated from Plasmic content, publishing a change in Plasmic Studio requires
